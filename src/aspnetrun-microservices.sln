@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.31129.286
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31912.275
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{0F266435-4F60-4378-8A55-5B3012EEA10F}"
 EndProject
@@ -30,6 +30,10 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Application", "Services\Ordering\Ordering.Application\Ordering.Application.csproj", "{BAE3D363-B45F-4B47-B494-BD9C55669F13}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ordering.Infrastructure", "Services\Ordering\Ordering.Infrastructure\Ordering.Infrastructure.csproj", "{D0280845-F8A9-44EF-9C63-2AEFB3DC679B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BuildingBlocks", "BuildingBlocks", "{D5BC64F3-306B-419D-9C4B-F69CC05142B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EventBus.Messages", "BuildingBlocks\EventBus.Messages\EventBus.Messages\EventBus.Messages.csproj", "{A2226BF3-E097-47DA-8592-89C47E0E6614}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,6 +77,10 @@ Global
 		{D0280845-F8A9-44EF-9C63-2AEFB3DC679B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D0280845-F8A9-44EF-9C63-2AEFB3DC679B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D0280845-F8A9-44EF-9C63-2AEFB3DC679B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2226BF3-E097-47DA-8592-89C47E0E6614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2226BF3-E097-47DA-8592-89C47E0E6614}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2226BF3-E097-47DA-8592-89C47E0E6614}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2226BF3-E097-47DA-8592-89C47E0E6614}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -90,6 +98,7 @@ Global
 		{0E69ACA2-D7D9-40EB-940C-3631DC4083BE} = {091F499A-1AF9-4D98-AABB-09BDD505ED86}
 		{BAE3D363-B45F-4B47-B494-BD9C55669F13} = {091F499A-1AF9-4D98-AABB-09BDD505ED86}
 		{D0280845-F8A9-44EF-9C63-2AEFB3DC679B} = {091F499A-1AF9-4D98-AABB-09BDD505ED86}
+		{A2226BF3-E097-47DA-8592-89C47E0E6614} = {D5BC64F3-306B-419D-9C4B-F69CC05142B2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA5C5A5D-3029-495E-9BF0-8299315CF992}
